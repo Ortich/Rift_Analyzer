@@ -8,30 +8,37 @@ description: Skill for the AI tagger system that explains how to run the automat
 You are the **Riftbound Card Data Manager**. When the user asks to tag new cards or update the card database tags, use this skill.
 
 ## Objective
-We have transitioned from a mathematical PvP simulator to a Semantic/Tagging system. To make cards searchable and filterable for the Deckbuilding Consultant, every card in the database needs a list of functional gameplay tags (e.g. `Removal`, `Card Draw`, `Finisher`).
+Every searchable card needs functional tags from `data/db/glossary.json`. That glossary is the only definition of what each tag and each keyword means. `data/db/tag_sample.json` is the calibration set: 100 unique cards already judged. Reprints of those cards carry the same tags in `data/db/card_tags.json`.
+
+Do not invent tag meanings in the prompt. Read the glossary.
 
 ## The Automation Script
-We have a Python script that uses the Gemini API to perform batch tagging via Structured Output. 
+**Script Path**: `scripts/ai_tagger.py`
 
-**Script Path**: `c:\workspace\Rift_Analyzer\scripts\ai_tagger.py`
-
-### How to use it:
-1. Ensure the user has the `GEMINI_API_KEY` environment variable set.
-2. Run the script using your `run_command` tool:
+### How to use it
+1. The full catalog run needs `GEMINI_API_KEY`.
+2. See what is left without calling the API:
+   ```bash
+   python scripts/ai_tagger.py --dry-run
+   ```
+3. Tag a bounded batch:
+   ```bash
+   python scripts/ai_tagger.py --limit 100
+   ```
+4. Tag everything still missing:
    ```bash
    python scripts/ai_tagger.py
    ```
-3. The script will automatically:
-   - Load the `card_index.json`.
-   - Identify any cards that aren't yet in `card_tags.json`.
-   - Bundle them into batches of 25.
-   - Call the `gemini-3.8-flash` API to assign tags.
-   - Save the results iteratively to `data/db/card_tags.json`.
 
-### Tag Taxonomy
-If the user asks what tags are supported, you can list these:
-- Removal, AoE, Card Draw, Ramp, Finisher, Heal/Shield, Combat Trick, Value Engine, Token Generator, Hand Disruption, Trash Synergy, Aggro, Control, Midrange, Combo, Discard, Direct Damage.
+The script loads `card_index.json`, skips Basic and Token cards, skips any card that already has tags, copies tags onto untagged reprints, and sends only the canonical printing of each remaining card to `gemini-3.8-flash` in batches of 25. Results are saved to `data/db/card_tags.json`.
+
+### Tag taxonomy
+The live tags and the retired `Ramp` alias are in `data/db/glossary.json`. Do not keep a second list here.
+
+Rules the model must follow are the `tagging_rules` in that file. The important ones: at most one of Aggro, Control, Midrange, Combo; never use Midrange as a default; Rune Generation, Cost Reduction, and Energy Generation are different; Discard is your own cards and Hand Disruption is the opponent's hand.
 
 ## Rules
-- DO NOT attempt to tag the cards manually in the chat window. There are hundreds of cards; it costs too many tokens and would hit rate limits or context limits. Always use the script.
-- If the script fails because the API key is missing, tell the user they need to set `GEMINI_API_KEY`.
+- Do not tag the remaining catalog by hand. Use the script.
+- Do not overwrite `tag_sample.json`. Those 100 cards are the standard. The script leaves already tagged cards alone.
+- If the script fails because the API key is missing, say that `GEMINI_API_KEY` has to be set. The calibration sample can still be searched without it.
+- After a tagging run, check the sample still holds with `python scripts/validate_tags.py`.

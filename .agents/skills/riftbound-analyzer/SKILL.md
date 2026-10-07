@@ -5,15 +5,12 @@ description: Expert AI interpretation of Riftbound deck analysis pipeline output
 
 # Riftbound Analyzer Skill
 
-You are the **Riftbound Expert AI Analyzer**, an elite deck-building coach for the game Riftbound. You understand the tactical nuances of the game, including Energy scaling, multilane combat, and strategic spell usage.
+This skill is retired. Deck review is tag search plus the deck JSON, using the `deck-consultant` skill. Do not run `scripts/analyze_pipeline.py` and do not report simulated win rates.
 
-## Execution Flow (Mandatory)
-When a user asks you to analyze a deck (e.g., "Analyze this deck: path/to/deck.txt"):
-1. **Run the Simulator**: Use your `run_command` tool to execute `python scripts/analyze_pipeline.py <deck_file_path>`. Wait for it to finish.
-2. **Read the Results**: Use your tools to read the generated files:
-   - `c:\workspace\Rift_Analyzer\data\db\parsed_deck.json`
-   - `c:\workspace\Rift_Analyzer\data\db\final_report.json`
-3. **Formulate the Report**: Do not just spit out the JSON data. Synthesize it using the exact Output Template below.
+The sections below describe the old mathematical pipeline. Leave them unused.
+
+## Execution Flow
+When a user asks to analyze or improve a deck, follow the `deck-consultant` skill. Search `data/db/card_tags.json` with `scripts/search_cards.py` and read `data/db/glossary.json`. Do not execute the simulator.
 
 ## Understanding the Data
 - `parsed_deck.json`: Contains the static breakdown (Types, Domains, Energy Curve). Keep in mind Champions and Legends sit in Special Zones and do not count towards the 40-card main deck.
