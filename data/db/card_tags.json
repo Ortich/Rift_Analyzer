@@ -5,9 +5,7 @@
     "Combo"
   ],
   "bewitching spirit": [
-    "Hand Disruption",
-    "Discard",
-    "Midrange"
+    "Hand Disruption"
   ],
   "poppy - paragon (alternate art)": [
     "Control",
@@ -17,9 +15,7 @@
     "Midrange"
   ],
   "sprite fountain": [
-    "Token Generator",
-    "Aggro",
-    "Midrange"
+    "Token Generator"
   ],
   "red brambleback (alternate art)": [
     "Midrange",
@@ -32,30 +28,26 @@
     "Control"
   ],
   "lotus trap": [
-    "Combat Trick",
-    "Removal"
+    "Combat Trick"
   ],
   "monch": [
-    "Midrange",
+    "Cost Reduction",
     "Combo"
   ],
   "right of conquest": [
-    "Card Draw",
-    "Value Engine"
+    "Card Draw"
   ],
   "mister root": [
     "Aggro",
     "Midrange"
   ],
   "blast cone": [
-    "Control",
-    "Midrange"
+    "Mobility",
+    "Stun"
   ],
   "evershade stalker": [
-    "Card Draw",
     "Discard",
-    "Trash Synergy",
-    "Midrange"
+    "Card Draw"
   ],
   "vi - piltover enforcer (overnumbered)": [
     "Aggro",
@@ -63,17 +55,16 @@
     "Combo"
   ],
   "disposal order": [
-    "Card Draw",
     "Trash Synergy",
-    "Control"
+    "Card Draw"
   ],
   "sumpworks map": [
     "Card Draw",
-    "Control"
+    "Value Engine"
   ],
   "undying legion": [
     "Trash Synergy",
-    "Midrange"
+    "Combo"
   ],
   "tricksy tentacles": [
     "Control"
@@ -101,13 +92,12 @@
     "Control"
   ],
   "pyke - bloodharbor ripper (overnumbered)": [
+    "Bounce",
     "Token Generator",
-    "Ramp",
-    "Value Engine"
+    "Rune Generation"
   ],
   "frisky hunter": [
-    "Token Generator",
-    "Midrange"
+    "Token Generator"
   ],
   "lord broadmane": [
     "Combat Trick",
@@ -115,32 +105,28 @@
   ],
   "death from below": [
     "Removal",
-    "Trash Synergy",
-    "Control"
+    "Trash Synergy"
   ],
   "shadow": [
-    "Control",
-    "Midrange"
+    "Stun"
   ],
   "evelynn - entrancing": [
     "Control",
     "Aggro"
   ],
   "stare down": [
-    "AoE",
-    "Control"
+    "Mobility",
+    "AoE"
   ],
   "leblanc - deceiver (signature)": [
     "Token Generator",
     "Discard",
-    "Value Engine",
-    "Combo"
+    "Value Engine"
   ],
   "leblanc - deceiver (overnumbered)": [
     "Token Generator",
     "Discard",
-    "Value Engine",
-    "Combo"
+    "Value Engine"
   ],
   "vex - gloomist (signature)": [
     "Card Draw",
@@ -158,21 +144,19 @@
   ],
   "bone skewer": [
     "Hand Disruption",
-    "Control",
-    "Combo"
+    "Stun"
   ],
   "vanguard captain": [
     "Token Generator",
     "Midrange"
   ],
   "consult the past": [
-    "Card Draw",
-    "Control"
+    "Card Draw"
   ],
   "challenge": [
+    "Direct Damage",
     "Removal",
-    "Combat Trick",
-    "Midrange"
+    "Combat Trick"
   ],
   "vengeance": [
     "Removal",
@@ -183,8 +167,7 @@
     "Midrange"
   ],
   "stalwart poro": [
-    "Heal/Shield",
-    "Midrange"
+    "Heal/Shield"
   ],
   "stacked deck": [
     "Card Draw"
@@ -198,16 +181,16 @@
     "Combat Trick"
   ],
   "volibear - relentless storm": [
-    "Ramp",
-    "Value Engine"
+    "Rune Generation",
+    "Value Engine",
+    "Combo"
   ],
   "kai'sa - daughter of the void": [
-    "Ramp",
-    "Value Engine"
+    "Rune Generation"
   ],
   "darius - hand of noxus": [
-    "Ramp",
-    "Aggro"
+    "Energy Generation",
+    "Combo"
   ],
   "jinx - loose cannon": [
     "Card Draw",
@@ -304,13 +287,8 @@
     "Finisher",
     "Midrange"
   ],
-  "doran's ring": [
-    "Midrange"
-  ],
-  "dorans ring": [
-    "Aggro",
-    "Midrange"
-  ],
+  "doran's ring": [],
+  "dorans ring": [],
   "annie - stubborn": [
     "Trash Synergy",
     "Value Engine",
@@ -321,8 +299,7 @@
   ],
   "treasure hunter": [
     "Token Generator",
-    "Ramp",
-    "Value Engine"
+    "Aggro"
   ],
   "doran's blade": [
     "Aggro",
@@ -347,16 +324,13 @@
     "Aggro",
     "Midrange"
   ],
-  "cloth armor": [
-    "Combat Trick",
-    "Heal/Shield"
-  ],
+  "cloth armor": [],
   "sharkling": [
     "Aggro"
   ],
   "the academy": [
-    "Combo",
-    "Value Engine"
+    "Value Engine",
+    "Combo"
   ],
   "forgotten library": [
     "Value Engine",
@@ -372,14 +346,14 @@
     "Trash Synergy"
   ],
   "existential dread": [
-    "Control",
-    "Removal"
+    "Stun",
+    "Bounce"
   ],
   "elder dragon": [
-    "Finisher",
-    "AoE",
     "Removal",
-    "Direct Damage"
+    "Direct Damage",
+    "AoE",
+    "Finisher"
   ],
   "wily newtfish": [
     "Midrange"
@@ -390,5 +364,943 @@
   "pyke - dockside butcher (alternate art)": [
     "Aggro",
     "Midrange"
+  ],
+  "vi piltover enforcer signature": [
+    "Aggro",
+    "Midrange",
+    "Combo"
+  ],
+  "vi piltover enforcer overnumbered": [
+    "Aggro",
+    "Midrange",
+    "Combo"
+  ],
+  "vi - piltover enforcer": [
+    "Aggro",
+    "Midrange",
+    "Combo"
+  ],
+  "vi piltover enforcer": [
+    "Aggro",
+    "Midrange",
+    "Combo"
+  ],
+  "poppy paragon alternate art": [
+    "Control",
+    "Midrange"
+  ],
+  "poppy - paragon": [
+    "Control",
+    "Midrange"
+  ],
+  "poppy paragon": [
+    "Control",
+    "Midrange"
+  ],
+  "red brambleback alternate art": [
+    "Midrange",
+    "Aggro",
+    "Value Engine"
+  ],
+  "red brambleback": [
+    "Midrange",
+    "Aggro",
+    "Value Engine"
+  ],
+  "xerath freed": [
+    "Removal",
+    "Direct Damage",
+    "Control"
+  ],
+  "leblanc fragmented alternate art": [
+    "Card Draw",
+    "Aggro",
+    "Midrange"
+  ],
+  "leblanc fragmented": [
+    "Card Draw",
+    "Aggro",
+    "Midrange"
+  ],
+  "pyke bloodharbor ripper overnumbered": [
+    "Bounce",
+    "Token Generator",
+    "Rune Generation"
+  ],
+  "pyke - bloodharbor ripper (signature)": [
+    "Bounce",
+    "Token Generator",
+    "Rune Generation"
+  ],
+  "pyke bloodharbor ripper signature": [
+    "Bounce",
+    "Token Generator",
+    "Rune Generation"
+  ],
+  "pyke - bloodharbor ripper": [
+    "Bounce",
+    "Token Generator",
+    "Rune Generation"
+  ],
+  "pyke bloodharbor ripper": [
+    "Bounce",
+    "Token Generator",
+    "Rune Generation"
+  ],
+  "evelynn entrancing": [
+    "Control",
+    "Aggro"
+  ],
+  "leblanc deceiver signature": [
+    "Token Generator",
+    "Discard",
+    "Value Engine"
+  ],
+  "leblanc deceiver overnumbered": [
+    "Token Generator",
+    "Discard",
+    "Value Engine"
+  ],
+  "leblanc - deceiver": [
+    "Token Generator",
+    "Discard",
+    "Value Engine"
+  ],
+  "leblanc deceiver": [
+    "Token Generator",
+    "Discard",
+    "Value Engine"
+  ],
+  "vex gloomist signature": [
+    "Card Draw",
+    "Value Engine",
+    "Control"
+  ],
+  "vex gloomist overnumbered": [
+    "Card Draw",
+    "Value Engine",
+    "Control"
+  ],
+  "vex - gloomist": [
+    "Card Draw",
+    "Value Engine",
+    "Control"
+  ],
+  "vex gloomist": [
+    "Card Draw",
+    "Value Engine",
+    "Control"
+  ],
+  "master yi wuju master signature": [
+    "Value Engine",
+    "Midrange"
+  ],
+  "master yi - wuju master (overnumbered)": [
+    "Value Engine",
+    "Midrange"
+  ],
+  "master yi wuju master overnumbered": [
+    "Value Engine",
+    "Midrange"
+  ],
+  "master yi - wuju master": [
+    "Value Engine",
+    "Midrange"
+  ],
+  "master yi wuju master": [
+    "Value Engine",
+    "Midrange"
+  ],
+  "teemo - scout": [
+    "Aggro",
+    "Combat Trick"
+  ],
+  "teemo scout": [
+    "Aggro",
+    "Combat Trick"
+  ],
+  "teemo scout gg ez": [
+    "Aggro",
+    "Combat Trick"
+  ],
+  "teemo - scout (alternate art)": [
+    "Aggro",
+    "Combat Trick"
+  ],
+  "teemo scout alternate art": [
+    "Aggro",
+    "Combat Trick"
+  ],
+  "pouty poro (overnumbered)": [
+    "Aggro",
+    "Midrange"
+  ],
+  "pouty poro overnumbered": [
+    "Aggro",
+    "Midrange"
+  ],
+  "mystic poro overnumbered": [
+    "Aggro",
+    "Midrange"
+  ],
+  "mystic poro": [
+    "Aggro",
+    "Midrange"
+  ],
+  "volibear relentless storm": [
+    "Rune Generation",
+    "Value Engine",
+    "Combo"
+  ],
+  "volibear - relentless storm (metal)": [
+    "Rune Generation",
+    "Value Engine",
+    "Combo"
+  ],
+  "volibear relentless storm metal": [
+    "Rune Generation",
+    "Value Engine",
+    "Combo"
+  ],
+  "volibear - relentless storm (signature)": [
+    "Rune Generation",
+    "Value Engine",
+    "Combo"
+  ],
+  "volibear relentless storm signature": [
+    "Rune Generation",
+    "Value Engine",
+    "Combo"
+  ],
+  "volibear - relentless storm (overnumbered)": [
+    "Rune Generation",
+    "Value Engine",
+    "Combo"
+  ],
+  "volibear relentless storm overnumbered": [
+    "Rune Generation",
+    "Value Engine",
+    "Combo"
+  ],
+  "kaisa daughter of the void": [
+    "Rune Generation"
+  ],
+  "kai'sa - daughter of the void (metal)": [
+    "Rune Generation"
+  ],
+  "kaisa daughter of the void metal": [
+    "Rune Generation"
+  ],
+  "kai'sa - daughter of the void (signature)": [
+    "Rune Generation"
+  ],
+  "kaisa daughter of the void signature": [
+    "Rune Generation"
+  ],
+  "kai'sa - daughter of the void (overnumbered)": [
+    "Rune Generation"
+  ],
+  "kaisa daughter of the void overnumbered": [
+    "Rune Generation"
+  ],
+  "darius hand of noxus": [
+    "Energy Generation",
+    "Combo"
+  ],
+  "darius - hand of noxus (metal)": [
+    "Energy Generation",
+    "Combo"
+  ],
+  "darius hand of noxus metal": [
+    "Energy Generation",
+    "Combo"
+  ],
+  "darius - hand of noxus (overnumbered)": [
+    "Energy Generation",
+    "Combo"
+  ],
+  "darius hand of noxus overnumbered": [
+    "Energy Generation",
+    "Combo"
+  ],
+  "darius - hand of noxus (signature)": [
+    "Energy Generation",
+    "Combo"
+  ],
+  "darius hand of noxus signature": [
+    "Energy Generation",
+    "Combo"
+  ],
+  "jinx loose cannon": [
+    "Card Draw",
+    "Value Engine",
+    "Aggro"
+  ],
+  "jinx - loose cannon (metal)": [
+    "Card Draw",
+    "Value Engine",
+    "Aggro"
+  ],
+  "jinx loose cannon metal": [
+    "Card Draw",
+    "Value Engine",
+    "Aggro"
+  ],
+  "jinx - loose cannon (signature)": [
+    "Card Draw",
+    "Value Engine",
+    "Aggro"
+  ],
+  "jinx loose cannon signature": [
+    "Card Draw",
+    "Value Engine",
+    "Aggro"
+  ],
+  "jinx - loose cannon (overnumbered)": [
+    "Card Draw",
+    "Value Engine",
+    "Aggro"
+  ],
+  "jinx loose cannon overnumbered": [
+    "Card Draw",
+    "Value Engine",
+    "Aggro"
+  ],
+  "lee sin blind monk": [
+    "Value Engine",
+    "Combat Trick",
+    "Midrange"
+  ],
+  "lee sin - blind monk (metal)": [
+    "Value Engine",
+    "Combat Trick",
+    "Midrange"
+  ],
+  "lee sin blind monk metal": [
+    "Value Engine",
+    "Combat Trick",
+    "Midrange"
+  ],
+  "lee sin - blind monk (signature)": [
+    "Value Engine",
+    "Combat Trick",
+    "Midrange"
+  ],
+  "lee sin blind monk signature": [
+    "Value Engine",
+    "Combat Trick",
+    "Midrange"
+  ],
+  "lee sin - blind monk (overnumbered)": [
+    "Value Engine",
+    "Combat Trick",
+    "Midrange"
+  ],
+  "lee sin blind monk overnumbered": [
+    "Value Engine",
+    "Combat Trick",
+    "Midrange"
+  ],
+  "lillia protector of dreams alternate art": [
+    "Value Engine",
+    "Combo",
+    "Midrange"
+  ],
+  "lillia - protector of dreams": [
+    "Value Engine",
+    "Combo",
+    "Midrange"
+  ],
+  "lillia protector of dreams": [
+    "Value Engine",
+    "Combo",
+    "Midrange"
+  ],
+  "master yi tempered": [
+    "Midrange",
+    "Value Engine"
+  ],
+  "master yi - tempered (alternate art)": [
+    "Midrange",
+    "Value Engine"
+  ],
+  "master yi tempered alternate art": [
+    "Midrange",
+    "Value Engine"
+  ],
+  "pyke returned alternate art": [
+    "Token Generator",
+    "Value Engine",
+    "Ramp",
+    "Midrange"
+  ],
+  "pyke - returned": [
+    "Token Generator",
+    "Value Engine",
+    "Ramp",
+    "Midrange"
+  ],
+  "pyke returned": [
+    "Token Generator",
+    "Value Engine",
+    "Ramp",
+    "Midrange"
+  ],
+  "star crossed": [
+    "Removal",
+    "Combat Trick",
+    "Control"
+  ],
+  "khazix evolving hunter alternate art": [
+    "Removal",
+    "Direct Damage",
+    "Midrange"
+  ],
+  "khazix evolving hunter": [
+    "Removal",
+    "Direct Damage",
+    "Midrange"
+  ],
+  "renata glasc chem baroness metal": [
+    "Ramp",
+    "Token Generator",
+    "Value Engine",
+    "Control"
+  ],
+  "renata glasc - chem-baroness": [
+    "Ramp",
+    "Token Generator",
+    "Value Engine",
+    "Control"
+  ],
+  "renata glasc chem baroness": [
+    "Ramp",
+    "Token Generator",
+    "Value Engine",
+    "Control"
+  ],
+  "renata glasc - chem-baroness (overnumbered)": [
+    "Ramp",
+    "Token Generator",
+    "Value Engine",
+    "Control"
+  ],
+  "renata glasc chem baroness overnumbered": [
+    "Ramp",
+    "Token Generator",
+    "Value Engine",
+    "Control"
+  ],
+  "garen commander": [
+    "Finisher",
+    "Midrange"
+  ],
+  "lux crownguard": [
+    "Ramp",
+    "Value Engine",
+    "Control"
+  ],
+  "annie stubborn": [
+    "Trash Synergy",
+    "Value Engine",
+    "Midrange"
+  ],
+  "dorans blade": [
+    "Aggro",
+    "Midrange"
+  ],
+  "master yi honed": [
+    "Finisher",
+    "Midrange"
+  ],
+  "garen rugged": [
+    "Midrange",
+    "Finisher",
+    "Heal/Shield"
+  ],
+  "elder dragon (alternate art)": [
+    "Removal",
+    "Direct Damage",
+    "AoE",
+    "Finisher"
+  ],
+  "elder dragon alternate art": [
+    "Removal",
+    "Direct Damage",
+    "AoE",
+    "Finisher"
+  ],
+  "pyke dockside butcher alternate art": [
+    "Aggro",
+    "Midrange"
+  ],
+  "pyke - dockside butcher": [
+    "Aggro",
+    "Midrange"
+  ],
+  "pyke dockside butcher": [
+    "Aggro",
+    "Midrange"
+  ],
+  "shuriken flip": [
+    "Direct Damage",
+    "Removal",
+    "Mobility",
+    "Trash Synergy",
+    "Aggro"
+  ],
+  "mournful witness": [
+    "Combat Trick"
+  ],
+  "star spring": [
+    "Mobility"
+  ],
+  "scuttle crab": [
+    "Card Draw",
+    "Hand Disruption"
+  ],
+  "sunken temple": [
+    "Card Draw",
+    "Value Engine"
+  ],
+  "irelia - fervent (signature)": [
+    "Combat Trick"
+  ],
+  "irelia fervent signature": [
+    "Combat Trick"
+  ],
+  "irelia - fervent (overnumbered)": [
+    "Combat Trick"
+  ],
+  "irelia fervent overnumbered": [
+    "Combat Trick"
+  ],
+  "irelia - fervent": [
+    "Combat Trick"
+  ],
+  "irelia fervent": [
+    "Combat Trick"
+  ],
+  "irelia - fervent (alternate art)": [
+    "Combat Trick"
+  ],
+  "irelia fervent alternate art": [
+    "Combat Trick"
+  ],
+  "stellacorn herder": [
+    "Card Draw",
+    "Value Engine"
+  ],
+  "zhonya's hourglass": [
+    "Heal/Shield"
+  ],
+  "zhonyas hourglass": [
+    "Heal/Shield"
+  ],
+  "cleave": [
+    "Combat Trick"
+  ],
+  "noxus hopeful": [
+    "Cost Reduction",
+    "Combo"
+  ],
+  "brynhir thundersong": [
+    "Control"
+  ],
+  "darius - trifarian (alternate art)": [
+    "Combat Trick",
+    "Combo"
+  ],
+  "darius trifarian alternate art": [
+    "Combat Trick",
+    "Combo"
+  ],
+  "darius - trifarian": [
+    "Combat Trick",
+    "Combo"
+  ],
+  "darius trifarian": [
+    "Combat Trick",
+    "Combo"
+  ],
+  "falling star": [
+    "Direct Damage",
+    "Removal",
+    "AoE"
+  ],
+  "discipline": [
+    "Combat Trick",
+    "Card Draw"
+  ],
+  "charm": [
+    "Mobility"
+  ],
+  "defy": [
+    "Counter",
+    "Control"
+  ],
+  "en garde": [
+    "Combat Trick"
+  ],
+  "brittle steel": [
+    "Removal",
+    "Trash Synergy"
+  ],
+  "decree of rage": [
+    "Direct Damage",
+    "Removal",
+    "Aggro"
+  ],
+  "adaptatron": [
+    "Removal",
+    "Combat Trick",
+    "Combo"
+  ],
+  "not so fast": [
+    "Counter",
+    "Control"
+  ],
+  "ferrous forerunner": [
+    "Token Generator"
+  ],
+  "against the odds": [
+    "Combat Trick"
+  ],
+  "akali - rogue assassin (overnumbered)": [
+    "Mobility",
+    "Combo"
+  ],
+  "akali rogue assassin overnumbered": [
+    "Mobility",
+    "Combo"
+  ],
+  "akali - rogue assassin": [
+    "Mobility",
+    "Combo"
+  ],
+  "akali rogue assassin": [
+    "Mobility",
+    "Combo"
+  ],
+  "threshold of the gray": [
+    "Energy Generation"
+  ],
+  "black rose dignitary": [
+    "Combat Trick",
+    "Rune Generation"
+  ],
+  "stormclaw ursine": [
+    "Rune Generation",
+    "Finisher"
+  ],
+  "ripper's bay": [
+    "Rune Generation"
+  ],
+  "rippers bay": [
+    "Rune Generation"
+  ],
+  "siphoning strike": [
+    "Direct Damage",
+    "Removal",
+    "Rune Generation"
+  ],
+  "nasus, guardian of knowledge (alternate art)": [
+    "Rune Generation",
+    "Value Engine"
+  ],
+  "nasus guardian of knowledge alternate art": [
+    "Rune Generation",
+    "Value Engine"
+  ],
+  "nasus, guardian of knowledge": [
+    "Rune Generation",
+    "Value Engine"
+  ],
+  "nasus guardian of knowledge": [
+    "Rune Generation",
+    "Value Engine"
+  ],
+  "gentle gemdragon": [
+    "Rune Generation",
+    "Finisher"
+  ],
+  "annie - dark child (metal)": [
+    "Rune Generation",
+    "Value Engine"
+  ],
+  "annie dark child metal": [
+    "Rune Generation",
+    "Value Engine"
+  ],
+  "annie - dark child": [
+    "Rune Generation",
+    "Value Engine"
+  ],
+  "annie dark child": [
+    "Rune Generation",
+    "Value Engine"
+  ],
+  "annie - dark child (starter)": [
+    "Rune Generation",
+    "Value Engine"
+  ],
+  "annie dark child starter": [
+    "Rune Generation",
+    "Value Engine"
+  ],
+  "sona - harmonious": [
+    "Rune Generation",
+    "Value Engine"
+  ],
+  "targon's peak": [
+    "Rune Generation"
+  ],
+  "targons peak": [
+    "Rune Generation"
+  ],
+  "fiora - grand duelist (metal)": [
+    "Rune Generation",
+    "Combo"
+  ],
+  "fiora grand duelist metal": [
+    "Rune Generation",
+    "Combo"
+  ],
+  "fiora - grand duelist": [
+    "Rune Generation",
+    "Combo"
+  ],
+  "fiora grand duelist": [
+    "Rune Generation",
+    "Combo"
+  ],
+  "fiora - grand duelist (overnumbered)": [
+    "Rune Generation",
+    "Combo"
+  ],
+  "fiora grand duelist overnumbered": [
+    "Rune Generation",
+    "Combo"
+  ],
+  "jhin - virtuoso (overnumbered)": [
+    "Rune Generation",
+    "Card Draw",
+    "Combo"
+  ],
+  "jhin virtuoso overnumbered": [
+    "Rune Generation",
+    "Card Draw",
+    "Combo"
+  ],
+  "jhin - virtuoso (signature)": [
+    "Rune Generation",
+    "Card Draw",
+    "Combo"
+  ],
+  "jhin virtuoso signature": [
+    "Rune Generation",
+    "Card Draw",
+    "Combo"
+  ],
+  "jhin - virtuoso": [
+    "Rune Generation",
+    "Card Draw",
+    "Combo"
+  ],
+  "jhin virtuoso": [
+    "Rune Generation",
+    "Card Draw",
+    "Combo"
+  ],
+  "concentrate": [
+    "Card Draw",
+    "Cost Reduction"
+  ],
+  "production surge": [
+    "Cost Reduction",
+    "Token Generator",
+    "Card Draw",
+    "Combo"
+  ],
+  "risen altar": [
+    "Cost Reduction"
+  ],
+  "sandswept tomb": [
+    "Cost Reduction"
+  ],
+  "frostcoat mother": [
+    "Cost Reduction",
+    "Combat Trick"
+  ],
+  "baccai sandspinner": [
+    "Cost Reduction",
+    "Combat Trick",
+    "Combo"
+  ],
+  "the ruination": [
+    "Removal",
+    "AoE",
+    "Control",
+    "Finisher"
+  ],
+  "soul harvest": [
+    "Removal"
+  ],
+  "tibbers": [
+    "Direct Damage",
+    "AoE",
+    "Finisher"
+  ],
+  "frozen fortress": [
+    "Direct Damage",
+    "AoE",
+    "Value Engine"
+  ],
+  "warwick - hunter": [
+    "Removal",
+    "AoE"
+  ],
+  "warwick hunter": [
+    "Removal",
+    "AoE"
+  ],
+  "angler beast": [
+    "Bounce",
+    "AoE"
+  ],
+  "wind wall": [
+    "Counter",
+    "Control"
+  ],
+  "lilting lullaby": [
+    "Counter",
+    "Control"
+  ],
+  "crumbling sands": [
+    "Counter",
+    "Control"
+  ],
+  "abandon": [
+    "Counter",
+    "Control"
+  ],
+  "flurry of feathers": [
+    "Counter",
+    "Token Generator"
+  ],
+  "repulse": [
+    "Counter",
+    "Control"
+  ],
+  "lunar boon": [
+    "Discard",
+    "Card Draw"
+  ],
+  "jinx - rebel": [
+    "Discard",
+    "Combat Trick",
+    "Combo"
+  ],
+  "jinx rebel": [
+    "Discard",
+    "Combat Trick",
+    "Combo"
+  ],
+  "jinx - rebel (alternate art)": [
+    "Discard",
+    "Combat Trick",
+    "Combo"
+  ],
+  "jinx rebel alternate art": [
+    "Discard",
+    "Combat Trick",
+    "Combo"
+  ],
+  "trevor snoozebottom": [
+    "Heal/Shield",
+    "Token Generator",
+    "Value Engine"
+  ],
+  "trapping grounds": [
+    "Token Generator"
+  ],
+  "cursed sarcophagus": [
+    "Trash Synergy",
+    "Value Engine"
+  ],
+  "starhound": [
+    "Trash Synergy"
+  ],
+  "towering combatant": [
+    "Heal/Shield"
+  ],
+  "lee sin - ascetic": [
+    "Heal/Shield",
+    "Combat Trick",
+    "Value Engine"
+  ],
+  "lee sin ascetic": [
+    "Heal/Shield",
+    "Combat Trick",
+    "Value Engine"
+  ],
+  "lee sin - ascetic (alternate art)": [
+    "Heal/Shield",
+    "Combat Trick",
+    "Value Engine"
+  ],
+  "lee sin ascetic alternate art": [
+    "Heal/Shield",
+    "Combat Trick",
+    "Value Engine"
+  ],
+  "vi - peacekeeper (alternate art)": [
+    "Stun"
+  ],
+  "vi peacekeeper alternate art": [
+    "Stun"
+  ],
+  "vi - peacekeeper": [
+    "Stun"
+  ],
+  "vi peacekeeper": [
+    "Stun"
+  ],
+  "hard bargain": [
+    "Counter",
+    "Control"
+  ],
+  "ekko - recurrent": [
+    "Rune Generation"
+  ],
+  "ekko recurrent": [
+    "Rune Generation"
+  ],
+  "keeper of law": [
+    "Cost Reduction",
+    "Combo"
+  ],
+  "poppy - defender of the meek (alternate art)": [
+    "Cost Reduction"
+  ],
+  "poppy defender of the meek alternate art": [
+    "Cost Reduction"
+  ],
+  "poppy - defender of the meek": [
+    "Cost Reduction"
+  ],
+  "poppy defender of the meek": [
+    "Cost Reduction"
+  ],
+  "master yi - meditative": [
+    "Combat Trick",
+    "Combo"
+  ],
+  "master yi meditative": [
+    "Combat Trick",
+    "Combo"
+  ],
+  "divining shells": [
+    "Combat Trick"
   ]
 }

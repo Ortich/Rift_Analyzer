@@ -1,0 +1,266 @@
+{
+  "version": 1,
+  "tagging_rules": [
+    "Asigna solo tags cuya definición encaje con el texto impreso. Si el texto no hace esa función, no la pongas.",
+    "Puedes poner varios tags funcionales. De Aggro, Control, Midrange y Combo, como máximo uno, y solo si el rol es evidente.",
+    "No uses Midrange como comodín. Una carta sin texto funcional se queda sin tag de rol.",
+    "Rune Generation, Cost Reduction y Energy Generation no se intercambian. Tener muchas runas como condición no es generar runas.",
+    "Discard es descartar tus propias cartas. Si descarta o enseña la mano el rival, es Hand Disruption.",
+    "Removal es matar una unidad o un gear, o un daño cuyo uso es responder una unidad. Direct Damage es infligir una cantidad de daño. Pueden ir juntas.",
+    "AoE solo si el efecto elige o alcanza dos o más unidades, o a todas las de una ubicación.",
+    "Value Engine es una ventaja que se repite (cada turno, cada conquista, habilidad activable). Un efecto de una sola vez no lo es.",
+    "No inventes tags fuera de esta lista. Ramp está retirado: no lo uses."
+  ],
+  "tags": {
+    "Removal": {
+      "summary": "Mata una unidad o un gear, o los responde con daño pensado para quitarlos.",
+      "apply_when": "Kill a unit, kill a gear, o daño dirigido a una unidad enemiga.",
+      "do_not_apply_when": "Solo mueve, aturde o devuelve a la mano, sin matar ni hacer daño."
+    },
+    "AoE": {
+      "summary": "Afecta a varias unidades o a todas las de una ubicación.",
+      "apply_when": "All units, each unit, dos o más objetivos, o todas las de un battlefield.",
+      "do_not_apply_when": "Elige una sola unidad."
+    },
+    "Card Draw": {
+      "summary": "Roba cartas o pone una carta del mazo en la mano.",
+      "apply_when": "Draw N, o mira varias y quédate una en la mano.",
+      "do_not_apply_when": "Solo mira la carta de arriba y la recicla, sin ponerla en la mano."
+    },
+    "Rune Generation": {
+      "summary": "Consigue runas para pagar costes: channel, ready de runas, o Add de una runa.",
+      "apply_when": "Channel N runes, ready runes, o Add a rune.",
+      "do_not_apply_when": "La carta solo cuesta menos, solo añade Energy, o solo mejora si ya controlas muchas runas."
+    },
+    "Cost Reduction": {
+      "summary": "Baja el coste de Energy, Power o runas de una carta o de una habilidad.",
+      "apply_when": "Costs less, reduce my cost, o un coste de habilidad que baja.",
+      "do_not_apply_when": "Genera runas o Energy nuevas sin descontar un coste."
+    },
+    "Energy Generation": {
+      "summary": "Añade Energy, que no es lo mismo que channel o ready de runas.",
+      "apply_when": "Add energy.",
+      "do_not_apply_when": "Add rune, channel runes o ready runes."
+    },
+    "Finisher": {
+      "summary": "Cierre de partida: coste alto y efecto que gana el tablero o la carrera.",
+      "apply_when": "Amenaza enorme, wipe, o efecto de cierre en un coste alto.",
+      "do_not_apply_when": "Cualquier unidad de coste 5 o 6 con un efecto normal."
+    },
+    "Heal/Shield": {
+      "summary": "Protege: Shield, evita una muerte, o absorbe el golpe.",
+      "apply_when": "Tiene Shield, o impide que una unidad muera.",
+      "do_not_apply_when": "Deflect, Tank o Backline. Eso no es Shield."
+    },
+    "Combat Trick": {
+      "summary": "Cambia el Might o el cálculo del combate: bonus temporal, Assault, o un fight.",
+      "apply_when": "+Might this turn, Assault, buff de Might, o dos unidades se pegan.",
+      "do_not_apply_when": "Solo mueve, roba o stunea, sin tocar Might."
+    },
+    "Value Engine": {
+      "summary": "Ventaja repetible: cada turno, al conquistar, al holdear, o una habilidad activable.",
+      "apply_when": "El texto se puede disparar más de una vez en la partida.",
+      "do_not_apply_when": "El efecto ocurre solo al jugarla o solo al morir."
+    },
+    "Token Generator": {
+      "summary": "Crea fichas de unidad o de gear.",
+      "apply_when": "Play a token.",
+      "do_not_apply_when": "Solo menciona non-token o copia una unidad sin crear ficha."
+    },
+    "Hand Disruption": {
+      "summary": "Ataca la mano rival: descarta, la enseña, o elige una carta de ella.",
+      "apply_when": "Un oponente descarta, revela la mano, o juega una carta que tú eliges de su mano.",
+      "do_not_apply_when": "Tú descartas tus propias cartas."
+    },
+    "Trash Synergy": {
+      "summary": "Juega desde el trash, lo recorre, o recurre con Flow.",
+      "apply_when": "From your trash, Flow, o juega/devuelve cartas del trash.",
+      "do_not_apply_when": "Solo mira el mazo o recicla la carta de arriba."
+    },
+    "Direct Damage": {
+      "summary": "Inflige una cantidad de daño a una unidad o a varias.",
+      "apply_when": "Deal N.",
+      "do_not_apply_when": "Kill sin una cifra de daño, o solo duplica daño que pone otra carta."
+    },
+    "Discard": {
+      "summary": "Tú descartas cartas propias, como coste o como efecto.",
+      "apply_when": "Discard 1, o te beneficia cuando tú descartas.",
+      "do_not_apply_when": "Elige un jugador y descarta el rival. Eso es Hand Disruption."
+    },
+    "Counter": {
+      "summary": "Contrarresta un hechizo o una habilidad.",
+      "apply_when": "Counter a spell o counter an ability.",
+      "do_not_apply_when": "Solo dice que este hechizo no puede ser contrarrestado."
+    },
+    "Stun": {
+      "summary": "Stun: la unidad no hace daño de combate este turno.",
+      "apply_when": "Stun a unit, o el texto deja una unidad stunned.",
+      "do_not_apply_when": "Solo cuesta menos si el rival ya tiene una unidad stunned."
+    },
+    "Mobility": {
+      "summary": "Mueve unidades entre ubicaciones, o tiene Ganking.",
+      "apply_when": "Move a unit, o Ganking.",
+      "do_not_apply_when": "Recall o 'send to base' cuando el texto dice que no es un move. Devolver a la mano es Bounce."
+    },
+    "Bounce": {
+      "summary": "Devuelve una carta a la mano de su dueño.",
+      "apply_when": "Return to hand.",
+      "do_not_apply_when": "Mover a base o recall que no vuelve a la mano."
+    },
+    "Aggro": {
+      "role": true,
+      "summary": "Presión barata. Rol, no función.",
+      "apply_when": "Coste bajo y el trabajo de la carta es pegar o quemar ya.",
+      "do_not_apply_when": "Hay un tag funcional más claro, o también encajaría en Control o Midrange."
+    },
+    "Control": {
+      "role": true,
+      "summary": "Respuesta lenta: counter, kill limpio, wipe o lock.",
+      "apply_when": "El plan de la carta es impedir lo que hace el rival.",
+      "do_not_apply_when": "Un trick de combate o una unidad eficiente sin ser respuesta."
+    },
+    "Midrange": {
+      "role": true,
+      "summary": "Cuerpo eficiente sin otra función. Casi nunca hace falta.",
+      "apply_when": "Unidad con stats decentes y sin texto funcional.",
+      "do_not_apply_when": "La carta ya tiene tags funcionales, o la usarías también en aggro o control."
+    },
+    "Combo": {
+      "role": true,
+      "summary": "Pide una condición concreta: Legion, Mighty, Mech, segunda carta del turno, muchas runas.",
+      "apply_when": "El efecto no existe si no se cumple una sinergia nombrada.",
+      "do_not_apply_when": "La carta funciona sola."
+    },
+    "Ramp": {
+      "retired": true,
+      "summary": "Tag viejo. Mezclaba runas, Energy y reducción de coste.",
+      "replaced_by": ["Rune Generation", "Cost Reduction", "Energy Generation"]
+    }
+  },
+  "keywords": {
+    "Action": {
+      "confidence": "reminder",
+      "summary": "Se juega en tu turno o en showdowns."
+    },
+    "Reaction": {
+      "confidence": "reminder",
+      "summary": "Se juega en cualquier momento, incluso antes de que resuelvan hechizos y habilidades."
+    },
+    "Assault": {
+      "confidence": "reminder",
+      "summary": "+N Might mientras ataca. Si el recordatorio no da número, el texto base usa +1."
+    },
+    "Shield": {
+      "confidence": "reminder",
+      "summary": "+N Might mientras defiende. Si el recordatorio no da número, el texto base usa +1."
+    },
+    "Deflect": {
+      "confidence": "reminder",
+      "summary": "El rival paga runas para elegirla con un hechizo o habilidad."
+    },
+    "Accelerate": {
+      "confidence": "reminder",
+      "summary": "Puedes pagar 1 de Energy y una runa de dominio extra para que entre ready."
+    },
+    "Ambush": {
+      "confidence": "reminder",
+      "summary": "Puedes jugarla como Reaction a un battlefield donde ya tienes unidades."
+    },
+    "Ganking": {
+      "confidence": "reminder",
+      "summary": "Puede moverse de battlefield a battlefield."
+    },
+    "Tank": {
+      "confidence": "reminder",
+      "summary": "Hay que asignarle el daño de combate el primero."
+    },
+    "Backline": {
+      "confidence": "reminder",
+      "summary": "Hay que asignarle el daño de combate el último."
+    },
+    "Hidden": {
+      "confidence": "reminder",
+      "summary": "La escondes ahora pagando una runa y reaccionas después por 0 de Energy."
+    },
+    "Temporary": {
+      "confidence": "reminder",
+      "summary": "Muere al empezar la Beginning Phase de su controlador, antes del scoring."
+    },
+    "Deathknell": {
+      "confidence": "reminder",
+      "summary": "Cuando muere, obtienes el efecto."
+    },
+    "Legion": {
+      "confidence": "reminder",
+      "summary": "Obtienes el efecto si ya has jugado otra carta este turno."
+    },
+    "Flow": {
+      "confidence": "reminder",
+      "summary": "Puedes jugarla desde tu trash pagando su coste de Flow. Después se destierra."
+    },
+    "Empower": {
+      "confidence": "reminder",
+      "summary": "Pagas el coste para Empower esta carta. Solo si no está ya Empowered."
+    },
+    "Stun": {
+      "confidence": "reminder",
+      "summary": "No hace daño de combate este turno."
+    },
+    "Mighty": {
+      "confidence": "reminder",
+      "summary": "Una unidad es Mighty mientras tiene 5 o más de Might."
+    },
+    "Buff": {
+      "confidence": "reminder",
+      "summary": "Un buff da +1 Might. Algunas cartas pueden acumular varios."
+    },
+    "Equip": {
+      "confidence": "reminder",
+      "summary": "Attach this to a unit you control."
+    },
+    "Quick-Draw": {
+      "confidence": "reminder",
+      "summary": "Tiene Reaction. Al jugarla, se equipa a una unidad que controlas."
+    },
+    "Weaponmaster": {
+      "confidence": "reminder",
+      "summary": "Al jugarla, puedes Equipar uno de tus Equipment pagando una runa menos, aunque ya esté attached."
+    },
+    "Vision": {
+      "confidence": "reminder",
+      "summary": "Al jugarla, mira la carta de arriba del Main Deck. Puedes reciclarla."
+    },
+    "Hunt": {
+      "confidence": "reminder",
+      "summary": "Cuando conquista o holdea, gana XP."
+    },
+    "Unique": {
+      "confidence": "reminder",
+      "summary": "El mazo solo puede llevar 1 carta con ese nombre."
+    },
+    "Recall": {
+      "confidence": "reminder",
+      "summary": "La envía a base. El texto avisa de que no cuenta como move."
+    },
+    "Add": {
+      "confidence": "usage",
+      "summary": "Añade Energy o una runa. Las habilidades que añaden recursos no se pueden responder."
+    },
+    "Channel": {
+      "confidence": "usage",
+      "summary": "La carta dice channel N runes, a menudo exhausted. El recordatorio no explica la zona de destino."
+    },
+    "Recycle": {
+      "confidence": "usage",
+      "summary": "Acción impresa para devolver una carta o una runa al ciclo. El recordatorio no fija la zona de destino."
+    },
+    "Conquer": {
+      "confidence": "usage",
+      "summary": "Trigger de scoring al tomar un battlefield. Vi lo usa junto al exceso de daño."
+    },
+    "Hold": {
+      "confidence": "usage",
+      "summary": "Trigger de scoring al mantener un battlefield."
+    }
+  }
+}
