@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "name": "Akali / Irelia Strike",
+    "archetype": "Midrange",
+    "strategy": "Aggressive midrange strategy looking to push through damage with combat tricks and efficiency.",
+    "win_condition": "Combat superiority and direct damage finishing."
+  },
+  "champion": "Akali - Rogue Assassin",
+  "legend": "Threshold of the Gray",
+  "energy_deck": {
+    "Fury Rune": 6,
+    "Calm Rune": 6
+  },
+  "main_deck": {
+    "Shuriken Flip": 3,
+    "Mournful Witness": 3,
+    "Akali - Deadly Weapon": 1,
+    "Star Spring": 1,
+    "Scuttle Crab": 3,
+    "Sunken Temple": 1,
+    "Irelia - Fervent": 2,
+    "Stellacorn Herder": 3,
+    "Zhonya's Hourglass": 2,
+    "Cleave": 3,
+    "Noxus Hopeful": 3,
+    "Brynhir Thundersong": 2,
+    "Darius - Trifarian": 2,
+    "Falling Star": 2,
+    "Discipline": 3,
+    "Charm": 2,
+    "Defy": 3,
+    "En Garde": 3,
+    "Brittle Steel": 1,
+    "Decree of Rage": 1,
+    "Adaptatron": 2,
+    "Akali - Silent": 1,
+    "Not So Fast": 1,
+    "Ferrous Forerunner": 2,
+    "Against the Odds": 2
+  },
+  "sideboard": {
+  },
+  "changelog": [
+    {
+      "date": "2026-09-20",
+      "changes": "Deck initialized from text.",
+      "reason": "First competitive draft."
+    }
+  ]
+}

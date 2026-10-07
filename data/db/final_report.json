@@ -1,0 +1,19 @@
+{
+  "deck_size": 48,
+  "valid_format": false,
+  "simulation_results": {
+    "Aggro": 0.0,
+    "Control": 0.0,
+    "Midrange": 0.0,
+    "average_win_rate": 0.0
+  },
+  "benchmark_baseline_used": 0.1,
+  "scores": {
+    "win_rate_vs_aggro": 0.0,
+    "win_rate_vs_control": 0.0,
+    "win_rate_vs_midrange": 0.0,
+    "interaction": 10.0
+  },
+  "power_level": 1.0,
+  "tier": "Tier 4 (Casual)"
+}

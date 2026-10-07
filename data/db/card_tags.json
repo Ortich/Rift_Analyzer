@@ -1,0 +1,394 @@
+{
+  "vi - piltover enforcer (signature)": [
+    "Aggro",
+    "Midrange",
+    "Combo"
+  ],
+  "bewitching spirit": [
+    "Hand Disruption",
+    "Discard",
+    "Midrange"
+  ],
+  "poppy - paragon (alternate art)": [
+    "Control",
+    "Midrange"
+  ],
+  "voracious gromp": [
+    "Midrange"
+  ],
+  "sprite fountain": [
+    "Token Generator",
+    "Aggro",
+    "Midrange"
+  ],
+  "red brambleback (alternate art)": [
+    "Midrange",
+    "Aggro",
+    "Value Engine"
+  ],
+  "xerath - freed": [
+    "Removal",
+    "Direct Damage",
+    "Control"
+  ],
+  "lotus trap": [
+    "Combat Trick",
+    "Removal"
+  ],
+  "monch": [
+    "Midrange",
+    "Combo"
+  ],
+  "right of conquest": [
+    "Card Draw",
+    "Value Engine"
+  ],
+  "mister root": [
+    "Aggro",
+    "Midrange"
+  ],
+  "blast cone": [
+    "Control",
+    "Midrange"
+  ],
+  "evershade stalker": [
+    "Card Draw",
+    "Discard",
+    "Trash Synergy",
+    "Midrange"
+  ],
+  "vi - piltover enforcer (overnumbered)": [
+    "Aggro",
+    "Midrange",
+    "Combo"
+  ],
+  "disposal order": [
+    "Card Draw",
+    "Trash Synergy",
+    "Control"
+  ],
+  "sumpworks map": [
+    "Card Draw",
+    "Control"
+  ],
+  "undying legion": [
+    "Trash Synergy",
+    "Midrange"
+  ],
+  "tricksy tentacles": [
+    "Control"
+  ],
+  "leblanc - fragmented (alternate art)": [
+    "Card Draw",
+    "Aggro",
+    "Midrange"
+  ],
+  "leblanc - fragmented": [
+    "Card Draw",
+    "Aggro",
+    "Midrange"
+  ],
+  "determined sentry": [
+    "Aggro"
+  ],
+  "prepared neophyte": [
+    "Midrange",
+    "Combo"
+  ],
+  "targonian visionary": [
+    "Finisher",
+    "Midrange",
+    "Control"
+  ],
+  "pyke - bloodharbor ripper (overnumbered)": [
+    "Token Generator",
+    "Ramp",
+    "Value Engine"
+  ],
+  "frisky hunter": [
+    "Token Generator",
+    "Midrange"
+  ],
+  "lord broadmane": [
+    "Combat Trick",
+    "Midrange"
+  ],
+  "death from below": [
+    "Removal",
+    "Trash Synergy",
+    "Control"
+  ],
+  "shadow": [
+    "Control",
+    "Midrange"
+  ],
+  "evelynn - entrancing": [
+    "Control",
+    "Aggro"
+  ],
+  "stare down": [
+    "AoE",
+    "Control"
+  ],
+  "leblanc - deceiver (signature)": [
+    "Token Generator",
+    "Discard",
+    "Value Engine",
+    "Combo"
+  ],
+  "leblanc - deceiver (overnumbered)": [
+    "Token Generator",
+    "Discard",
+    "Value Engine",
+    "Combo"
+  ],
+  "vex - gloomist (signature)": [
+    "Card Draw",
+    "Value Engine",
+    "Control"
+  ],
+  "vex - gloomist (overnumbered)": [
+    "Card Draw",
+    "Value Engine",
+    "Control"
+  ],
+  "master yi - wuju master (signature)": [
+    "Value Engine",
+    "Midrange"
+  ],
+  "bone skewer": [
+    "Hand Disruption",
+    "Control",
+    "Combo"
+  ],
+  "vanguard captain": [
+    "Token Generator",
+    "Midrange"
+  ],
+  "consult the past": [
+    "Card Draw",
+    "Control"
+  ],
+  "challenge": [
+    "Removal",
+    "Combat Trick",
+    "Midrange"
+  ],
+  "vengeance": [
+    "Removal",
+    "Control"
+  ],
+  "pouty poro": [
+    "Aggro",
+    "Midrange"
+  ],
+  "stalwart poro": [
+    "Heal/Shield",
+    "Midrange"
+  ],
+  "stacked deck": [
+    "Card Draw"
+  ],
+  "mystic poro (overnumbered)": [
+    "Aggro",
+    "Midrange"
+  ],
+  "teemo - scout (gg ez)": [
+    "Aggro",
+    "Combat Trick"
+  ],
+  "volibear - relentless storm": [
+    "Ramp",
+    "Value Engine"
+  ],
+  "kai'sa - daughter of the void": [
+    "Ramp",
+    "Value Engine"
+  ],
+  "darius - hand of noxus": [
+    "Ramp",
+    "Aggro"
+  ],
+  "jinx - loose cannon": [
+    "Card Draw",
+    "Value Engine",
+    "Aggro"
+  ],
+  "lee sin - blind monk": [
+    "Value Engine",
+    "Combat Trick",
+    "Midrange"
+  ],
+  "lillia - protector of dreams (alternate art)": [
+    "Value Engine",
+    "Combo",
+    "Midrange"
+  ],
+  "master yi - tempered": [
+    "Midrange",
+    "Value Engine"
+  ],
+  "pyke - returned (alternate art)": [
+    "Token Generator",
+    "Value Engine",
+    "Ramp",
+    "Midrange"
+  ],
+  "the list": [
+    "Combat Trick",
+    "Control"
+  ],
+  "walking roost": [
+    "Token Generator",
+    "Midrange"
+  ],
+  "star-crossed": [
+    "Removal",
+    "Combat Trick",
+    "Control"
+  ],
+  "kha'zix - evolving hunter (alternate art)": [
+    "Removal",
+    "Direct Damage",
+    "Midrange"
+  ],
+  "kha'zix - evolving hunter": [
+    "Removal",
+    "Direct Damage",
+    "Midrange"
+  ],
+  "unsung hero": [
+    "Card Draw",
+    "Combo",
+    "Midrange"
+  ],
+  "friendship": [
+    "Combat Trick",
+    "Combo"
+  ],
+  "back off": [
+    "Combat Trick",
+    "Card Draw",
+    "Control"
+  ],
+  "soul shepherd": [
+    "Midrange",
+    "Combo"
+  ],
+  "renata glasc - chem-baroness (metal)": [
+    "Ramp",
+    "Token Generator",
+    "Value Engine",
+    "Control"
+  ],
+  "boneshiver": [
+    "Midrange"
+  ],
+  "eye of the herald": [
+    "Midrange"
+  ],
+  "garen - commander": [
+    "Finisher",
+    "Midrange"
+  ],
+  "lux - crownguard": [
+    "Ramp",
+    "Value Engine",
+    "Control"
+  ],
+  "laurent duelist": [
+    "Aggro",
+    "Midrange"
+  ],
+  "towering pairofant": [
+    "Finisher",
+    "Midrange"
+  ],
+  "doran's ring": [
+    "Midrange"
+  ],
+  "dorans ring": [
+    "Aggro",
+    "Midrange"
+  ],
+  "annie - stubborn": [
+    "Trash Synergy",
+    "Value Engine",
+    "Midrange"
+  ],
+  "harpoon squad": [
+    "Midrange"
+  ],
+  "treasure hunter": [
+    "Token Generator",
+    "Ramp",
+    "Value Engine"
+  ],
+  "doran's blade": [
+    "Aggro",
+    "Midrange"
+  ],
+  "master yi - honed": [
+    "Finisher",
+    "Midrange"
+  ],
+  "fae dragon": [
+    "Finisher",
+    "Token Generator",
+    "Ramp",
+    "Value Engine"
+  ],
+  "garen - rugged": [
+    "Midrange",
+    "Finisher",
+    "Heal/Shield"
+  ],
+  "sea monkey": [
+    "Aggro",
+    "Midrange"
+  ],
+  "cloth armor": [
+    "Combat Trick",
+    "Heal/Shield"
+  ],
+  "sharkling": [
+    "Aggro"
+  ],
+  "the academy": [
+    "Combo",
+    "Value Engine"
+  ],
+  "forgotten library": [
+    "Value Engine",
+    "Control"
+  ],
+  "forbidding waste": [
+    "Aggro",
+    "Control"
+  ],
+  "dusk rose lab": [
+    "Card Draw",
+    "Value Engine",
+    "Trash Synergy"
+  ],
+  "existential dread": [
+    "Control",
+    "Removal"
+  ],
+  "elder dragon": [
+    "Finisher",
+    "AoE",
+    "Removal",
+    "Direct Damage"
+  ],
+  "wily newtfish": [
+    "Midrange"
+  ],
+  "combat experience": [
+    "Combat Trick"
+  ],
+  "pyke - dockside butcher (alternate art)": [
+    "Aggro",
+    "Midrange"
+  ]
+}

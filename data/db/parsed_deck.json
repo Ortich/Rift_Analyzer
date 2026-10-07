@@ -1,0 +1,367 @@
+{
+  "deck_size": 48,
+  "valid_format": false,
+  "domains": {
+    "Fury": 21,
+    "Calm": 30,
+    "Colorless": 2
+  },
+  "energy_curve": {
+    "0": 2,
+    "1": 15,
+    "2": 17,
+    "3": 0,
+    "4": 8,
+    "5+": 4
+  },
+  "type_breakdown": {
+    "Spells": 24,
+    "Units": 18,
+    "Battlefield": 2,
+    "Champion/Legend": 4,
+    "Equipments": 2
+  },
+  "average_might": 3.06,
+  "average_burn_cost": 0.37,
+  "keyword_density": {
+    "Trash": 4,
+    "Banish": 4,
+    "Draw": 10,
+    "Ready": 4,
+    "Recall": 2
+  },
+  "virtual_deck_costs": [
+    {
+      "energy": 1,
+      "burn": 1,
+      "type": "Spells",
+      "might": 0,
+      "spell_value": 1
+    },
+    {
+      "energy": 1,
+      "burn": 1,
+      "type": "Spells",
+      "might": 0,
+      "spell_value": 1
+    },
+    {
+      "energy": 1,
+      "burn": 1,
+      "type": "Spells",
+      "might": 0,
+      "spell_value": 1
+    },
+    {
+      "energy": 2,
+      "burn": 0,
+      "type": "Units",
+      "might": 2,
+      "spell_value": 0
+    },
+    {
+      "energy": 2,
+      "burn": 0,
+      "type": "Units",
+      "might": 2,
+      "spell_value": 0
+    },
+    {
+      "energy": 2,
+      "burn": 0,
+      "type": "Units",
+      "might": 2,
+      "spell_value": 0
+    },
+    {
+      "energy": 0,
+      "burn": 0,
+      "type": "Battlefield",
+      "might": 0,
+      "spell_value": 0
+    },
+    {
+      "energy": 2,
+      "burn": 0,
+      "type": "Units",
+      "might": 0,
+      "spell_value": 0
+    },
+    {
+      "energy": 2,
+      "burn": 0,
+      "type": "Units",
+      "might": 0,
+      "spell_value": 0
+    },
+    {
+      "energy": 2,
+      "burn": 0,
+      "type": "Units",
+      "might": 0,
+      "spell_value": 0
+    },
+    {
+      "energy": 0,
+      "burn": 0,
+      "type": "Battlefield",
+      "might": 0,
+      "spell_value": 0
+    },
+    {
+      "energy": 4,
+      "burn": 0,
+      "type": "Units",
+      "might": 3,
+      "spell_value": 0
+    },
+    {
+      "energy": 4,
+      "burn": 0,
+      "type": "Units",
+      "might": 3,
+      "spell_value": 0
+    },
+    {
+      "energy": 4,
+      "burn": 0,
+      "type": "Units",
+      "might": 3,
+      "spell_value": 0
+    },
+    {
+      "energy": 2,
+      "burn": 0,
+      "type": "Equipments",
+      "might": 0,
+      "spell_value": 3
+    },
+    {
+      "energy": 2,
+      "burn": 0,
+      "type": "Equipments",
+      "might": 0,
+      "spell_value": 3
+    },
+    {
+      "energy": 1,
+      "burn": 0,
+      "type": "Spells",
+      "might": 0,
+      "spell_value": 1
+    },
+    {
+      "energy": 1,
+      "burn": 0,
+      "type": "Spells",
+      "might": 0,
+      "spell_value": 1
+    },
+    {
+      "energy": 1,
+      "burn": 0,
+      "type": "Spells",
+      "might": 0,
+      "spell_value": 1
+    },
+    {
+      "energy": 4,
+      "burn": 0,
+      "type": "Units",
+      "might": 4,
+      "spell_value": 0
+    },
+    {
+      "energy": 4,
+      "burn": 0,
+      "type": "Units",
+      "might": 4,
+      "spell_value": 0
+    },
+    {
+      "energy": 4,
+      "burn": 0,
+      "type": "Units",
+      "might": 4,
+      "spell_value": 0
+    },
+    {
+      "energy": 6,
+      "burn": 0,
+      "type": "Units",
+      "might": 5,
+      "spell_value": 0
+    },
+    {
+      "energy": 6,
+      "burn": 0,
+      "type": "Units",
+      "might": 5,
+      "spell_value": 0
+    },
+    {
+      "energy": 2,
+      "burn": 2,
+      "type": "Spells",
+      "might": 0,
+      "spell_value": 3
+    },
+    {
+      "energy": 2,
+      "burn": 2,
+      "type": "Spells",
+      "might": 0,
+      "spell_value": 3
+    },
+    {
+      "energy": 2,
+      "burn": 0,
+      "type": "Spells",
+      "might": 0,
+      "spell_value": 3
+    },
+    {
+      "energy": 2,
+      "burn": 0,
+      "type": "Spells",
+      "might": 0,
+      "spell_value": 3
+    },
+    {
+      "energy": 2,
+      "burn": 0,
+      "type": "Spells",
+      "might": 0,
+      "spell_value": 3
+    },
+    {
+      "energy": 1,
+      "burn": 1,
+      "type": "Spells",
+      "might": 0,
+      "spell_value": 1
+    },
+    {
+      "energy": 1,
+      "burn": 1,
+      "type": "Spells",
+      "might": 0,
+      "spell_value": 1
+    },
+    {
+      "energy": 1,
+      "burn": 1,
+      "type": "Spells",
+      "might": 0,
+      "spell_value": 1
+    },
+    {
+      "energy": 1,
+      "burn": 1,
+      "type": "Spells",
+      "might": 0,
+      "spell_value": 1
+    },
+    {
+      "energy": 1,
+      "burn": 1,
+      "type": "Spells",
+      "might": 0,
+      "spell_value": 1
+    },
+    {
+      "energy": 1,
+      "burn": 0,
+      "type": "Spells",
+      "might": 0,
+      "spell_value": 1
+    },
+    {
+      "energy": 1,
+      "burn": 0,
+      "type": "Spells",
+      "might": 0,
+      "spell_value": 1
+    },
+    {
+      "energy": 1,
+      "burn": 0,
+      "type": "Spells",
+      "might": 0,
+      "spell_value": 1
+    },
+    {
+      "energy": 2,
+      "burn": 1,
+      "type": "Spells",
+      "might": 0,
+      "spell_value": 3
+    },
+    {
+      "energy": 1,
+      "burn": 1,
+      "type": "Spells",
+      "might": 0,
+      "spell_value": 1
+    },
+    {
+      "energy": 4,
+      "burn": 0,
+      "type": "Units",
+      "might": 3,
+      "spell_value": 0
+    },
+    {
+      "energy": 4,
+      "burn": 0,
+      "type": "Units",
+      "might": 3,
+      "spell_value": 0
+    },
+    {
+      "energy": 2,
+      "burn": 1,
+      "type": "Spells",
+      "might": 0,
+      "spell_value": 3
+    },
+    {
+      "energy": 6,
+      "burn": 1,
+      "type": "Units",
+      "might": 6,
+      "spell_value": 0
+    },
+    {
+      "energy": 6,
+      "burn": 1,
+      "type": "Units",
+      "might": 6,
+      "spell_value": 0
+    },
+    {
+      "energy": 2,
+      "burn": 0,
+      "type": "Spells",
+      "might": 0,
+      "spell_value": 3
+    },
+    {
+      "energy": 2,
+      "burn": 0,
+      "type": "Spells",
+      "might": 0,
+      "spell_value": 3
+    }
+  ],
+  "unresolved_cards": [
+    {
+      "name": "Akali - Deadly Weapon",
+      "qty": 1
+    },
+    {
+      "name": "Akali - Silent",
+      "qty": 1
+    }
+  ]
+}
